@@ -1,0 +1,167 @@
+html, body {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: helvetica, san-serif;
+	color: #2d3c49;
+}
+
+
+a {
+	text-decoration: none;
+	color: #2d3c49;
+	padding: 0;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.clear {
+	clear: both;
+	margin: 1em 0;
+}
+
+
+.container {
+	width: 96%;
+	margin: 0 auto;
+}
+
+
+.banner {
+	width: 100%;
+	height: 250px;
+}
+
+
+.logo {
+	float: left;
+}
+
+
+.logo-item {
+	width: 60px;
+	height: 60px;
+}
+
+
+.creator {
+	float: right;
+}
+
+
+.creator-name {
+	font-size: 30px;
+	text-align: right;
+	display: block;
+}
+
+
+.creator-specialty {
+	font-size: 16px;
+	text-align: right;
+	display: block;
+}
+
+
+.portfolio {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.featured {
+	width: 100%;
+	font-size: 2em;
+	padding-left: 1em;
+	color: #7d97ad;
+}
+
+
+.portfolio-item {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+
+.portfolio-image {
+	width: 95%;
+	height: 150px;
+}
+
+
+.portfolio-item p {
+	width: 95%;
+}
+
+.portfolio-link {
+	width: 95%;
+}
+
+
+h2 {
+	margin: 0.2em 0;
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(150,150,150);
+	color: rgb(230,230,230);
+}
+
+footer p {
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	font-weight: 600;
+}
+
+footer p a {
+	color: white;
+}
+
+footer .info {
+	font-weight: lighter;
+	font-size: 14px;
+}
+/**
+	RESPONSIVE DESIGN
+**/
+
+@media screen and (max-width: 550px) {
+
+	.logo-item {
+		width: 40px;
+		height: 40px;
+	}
+
+	.portfolio-item {
+		width: 100%;
+	}
+
+	.creator-name {
+		font-size: 1.5em;
+	}
+}
+
+
+@media screen and (min-width: 551px) {
+	.portfolio-item {
+		width: 33%;
+	}
+}
+
+
+@media screen and (min-width: 900px) {
+	.container {
+		width: 900px;
+		margin: 0 auto;
+	}
+}
