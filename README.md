@@ -6,10 +6,12 @@ This project showcases some of the projects I have worked on.
 
 To browse this web app offline, simply follow these instructions:
 
-- To begin, you need to download the repository to your computer.
-- Extract the downloaded zip file.
-- Open the index.html file with a browser.
-- Start browsing.
-- Please note that internet connection will be required to access the links present on the web app.
+- To view the app online, visit https://mosesajire.github.io/portfolio-project 
+- To view the app offline, please follow the steps below:
+  * Clone or download the repository to your computer.
+  * Extract the downloaded zip file.
+  * Open the index.html file with a browser.
+  * Start browsing.
+  * Note that internet connection will be required to access the links present on the web app.
 
 Thank you.
